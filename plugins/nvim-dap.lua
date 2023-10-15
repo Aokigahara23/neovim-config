@@ -17,9 +17,9 @@ return {
 		"rcarriga/nvim-dap-ui",
 		dependencies = "mfussenegger/nvim-dap",
 		config = function()
-			vim.fn.sign_define("DapBreakpoint", { text = "" })
+			vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "red" })
 
-			local dap = require("dap")
+			-- local dap = require("dap")
 			local dapui = require("dapui")
 			dapui.setup({
 				controls = {
