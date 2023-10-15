@@ -12,7 +12,7 @@ return {
 				auto_trigger = true,
 				debounce = 75,
 				keymap = {
-					accept = "<C-c>",
+					accept = "<leader>cc",
 					accept_word = false,
 					accept_line = false,
 					next = false,

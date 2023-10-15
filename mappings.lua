@@ -19,15 +19,15 @@ vim.g.maplocalleader = " "
 -- Normal --
 
 -- Better window navigation
-keymap("n", "<leader><Left>", "<C-w>h", opts)
-keymap("n", "<leader><Down>", "<C-w>j", opts)
-keymap("n", "<leader><Up>", "<C-w>k", opts)
-keymap("n", "<leader><Right>", "<C-w>l", opts)
+keymap("n", "<A-Left>", "<C-w>h", opts)
+keymap("n", "<A-Down>", "<C-w>j", opts)
+keymap("n", "<A-Up>", "<C-w>k", opts)
+keymap("n", "<A-Right>", "<C-w>l", opts)
 
 -- Navigate buffers
-keymap("n", "<leader>bn", ":bnext<CR>", opts)
-keymap("n", "<leader>bp", ":bprevious<CR>", opts)
-keymap("n", "<leader>bx", ":bdelete<CR>", opts)
+keymap("n", "<A-S-Right>", ":bnext<CR>", opts)
+keymap("n", "<A-S-Left>", ":bprevious<CR>", opts)
+keymap("n", "<A-S-x>", ":bdelete<CR>", opts)
 
 -- Insert --
 -- None yet
