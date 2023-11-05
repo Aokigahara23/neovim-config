@@ -65,5 +65,5 @@ keymap("n", "<leader>dx", ":DapTerminate<cr>", opts)
 
 -- Misc
 
-keymap("n", "<A-q>", ":qall<cr>", opts)
+keymap("n", "<A-q>", ":qall!<cr>", opts)
 keymap("n", "<A-w>", ":w!<cr>", opts)
