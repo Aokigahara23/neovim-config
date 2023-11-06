@@ -6,7 +6,7 @@ return {
 
 		lualine.setup({
 			options = {
-				theme = "everforest",
+				theme = "catppuccin-frappe",
 			},
 			sections = {
 				lualine_x = {
