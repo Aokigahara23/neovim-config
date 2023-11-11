@@ -43,6 +43,9 @@ keymap("n", "<S-x>", ":bdelete<CR>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
+-- File browsing
+keymap("n", "<leader>ee", ":Neotree toggle<cr>", opts)
+
 -- Move text up and down
 keymap("v", "<S-j>", ":m .+1<CR>==", opts)
 keymap("v", "<S-k>", ":m .-2<CR>==", opts)
