@@ -47,7 +47,7 @@ return {
 			lazygit:toggle()
 		end
 
-		local bottom = Terminal:new({ cmd = "btm --color gruvbox", hidden = true })
+		local bottom = Terminal:new({ cmd = "btm --color nord", hidden = true })
 
 		function _BOTTOM_TOGGLE()
 			bottom:toggle()
