@@ -32,7 +32,8 @@ return {
 				"tailwindcss",
 				"html",
 				"cssls",
-				"pyright",
+				-- install pyright manually
+				-- "pyright",
 			},
 			-- auto-install configured servers (with lspconfig)
 			automatic_installation = true, -- not the same as ensure_installed
