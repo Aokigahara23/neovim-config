@@ -59,6 +59,7 @@ keymap("n", "<leader>tt", ":ToggleTerm<cr>", opts)
 
 -- Debugger
 keymap("n", "<leader>dt", ":lua require('dapui').toggle()<cr>", opts)
+keymap("n", "<leader>ds", ":lua require('dap-python').test_method()<cr>", opts)
 keymap("n", "<leader>db", ":DapToggleBreakpoint<cr>", opts)
 keymap("n", "<leader>dc", ":DapContinue<cr>", opts)
 keymap("n", "<leader>di", ":DapStepInto<cr>", opts)
